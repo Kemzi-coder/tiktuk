@@ -3,10 +3,23 @@
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background-size: cover;
-	background-position: center;
 }
 
+.video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.thumb {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 998;
+	background: #c2185b;
+}
 
 .plays {
 	position: absolute;

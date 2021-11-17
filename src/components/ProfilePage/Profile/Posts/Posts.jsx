@@ -7,8 +7,8 @@ const Posts = ({posts}) => {
 			{
 				posts.map((post, index) => <Post
 					key={index}
-					cover={post.cover}
-					plays={post.plays}
+					url={post.videoUrl}
+					plays={post.playCount}
 				/>)
 			}
 		</div>

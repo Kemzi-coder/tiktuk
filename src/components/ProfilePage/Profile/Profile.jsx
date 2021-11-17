@@ -6,7 +6,7 @@ import Loader from '../../loaders/Loader/Loader'
 
 const Profile = ({name}) => {
 	const userInfo = useAxios({url: `https://tiktok33.p.rapidapi.com/user/info/${name}`})
-	const userPosts = useAxios({url: `https://tiktok33.p.rapidapi.com/user/feed/${name}`})
+	const userPosts = useAxios({url: 'https://tiktok33.p.rapidapi.com/trending/feed'})
 	const loading = userInfo.loading || userPosts.loading
 
 	if (userInfo.error || userPosts.error) {

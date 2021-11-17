@@ -17,11 +17,9 @@ const useAxios = ({url}) => {
 					}
 				})
 
-				console.log(response)
-
 				if (response.statusText !== 'OK') {
 					setError('Something went wrong!')
-				} else if (!(response.data && response.data.length)) {
+				} else if (!Object.keys(response.data).length) {
 					setError('Response is empty!')
 				}
 

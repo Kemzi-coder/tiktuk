@@ -1,7 +1,7 @@
 .loader {
-	position: absolute;
+	position: absolute !important;
 }
 
 .loader div:after {
-	background: #fff;
+	background: #fff !important;
 }

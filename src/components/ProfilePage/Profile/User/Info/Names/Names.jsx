@@ -7,9 +7,10 @@ const Names = ({name, nickname, verified}) => {
 		<div className='names'>
 			<p className={styles.name}>
 				{name}
-				{verified
-					? <VerifiedIcon/>
-					: ''
+				{
+					verified
+						? <VerifiedIcon className={styles.verified}/>
+						: ''
 				}
 			</p>
 			<p className={styles.nickname}>{nickname}</p>
