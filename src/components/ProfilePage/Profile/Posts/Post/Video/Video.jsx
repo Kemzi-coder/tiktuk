@@ -27,7 +27,7 @@ const Video = ({url, plays}) => {
 
 	return (
 		<div
-			className={styles.content}
+			className={styles['video-container']}
 			onMouseEnter={onMouseEnter}
 			onMouseLeave={onMouseLeave}
 		>
