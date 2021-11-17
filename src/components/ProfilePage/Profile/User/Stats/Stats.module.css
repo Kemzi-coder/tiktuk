@@ -1,0 +1,13 @@
+.stats {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 420px) {
+	.stats {
+		flex-direction: column;
+	}
+}

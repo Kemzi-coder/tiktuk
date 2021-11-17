@@ -1,0 +1,13 @@
+.music {
+	color: #000;
+	font-weight: 600;
+}
+
+.icon {
+	margin-bottom: -3px;
+	margin-right: 5px;
+}
+
+.music:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+.description {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	max-width: 626px;
+}
+
+.author-info {
+	margin-bottom: 5px;
+}
+
+@media (max-width: 500px) {
+	.author-info {
+		display: flex;
+		align-items: center;
+	}
+}

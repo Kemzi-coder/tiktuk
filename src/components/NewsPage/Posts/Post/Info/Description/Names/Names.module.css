@@ -1,0 +1,32 @@
+.names {
+	color: #000;
+	display: flex;
+}
+
+.names:hover .name {
+	text-decoration: underline;
+}
+
+.name {
+	display: inline-block;
+	font-weight: 700;
+	margin-right: 5px;
+}
+
+.verified {
+	margin-left: 5px;
+}
+
+.nickname {
+	display: inline-block;
+	padding-bottom: 5px;
+	vertical-align: bottom;
+	font-size: 14px;
+}
+
+@media (max-width: 500px) {
+	.names {
+		display: flex;
+		flex-direction: column;
+	}
+}

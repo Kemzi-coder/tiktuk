@@ -1,0 +1,18 @@
+.item + .item {
+	margin-left: 20px;
+}
+
+.number {
+	font-weight: 600;
+	margin-right: 5px;
+}
+
+.item {
+	display: flex;
+}
+
+@media(max-width: 420px) {
+	.item + .item {
+		margin-left: 0;
+	}
+}

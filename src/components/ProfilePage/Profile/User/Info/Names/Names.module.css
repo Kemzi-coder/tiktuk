@@ -1,0 +1,26 @@
+.name {
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.verified {
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.nickname {
+	font-weight: 600;
+}
+
+@media (max-width: 450px) {
+	.name {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 365px) {
+	.name {
+		font-size: 22px;
+	}
+}

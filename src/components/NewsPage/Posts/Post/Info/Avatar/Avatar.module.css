@@ -1,0 +1,24 @@
+.avatar {
+	margin-right: 10px;
+}
+
+.avatar img {
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.avatar.avatar-mobile {
+	display: none;
+}
+
+@media (max-width: 500px) {
+	.avatar {
+		display: none;
+	}
+
+	.avatar.avatar-mobile {
+		display: block;
+	}
+}

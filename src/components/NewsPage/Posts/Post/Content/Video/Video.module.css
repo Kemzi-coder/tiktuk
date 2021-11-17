@@ -1,0 +1,58 @@
+.video-container {
+	position: relative;
+	width: 290px;
+	height: 516px;
+	margin-left: 66px;
+	border-radius: 5px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.video-container:hover .button {
+	opacity: 1;
+}
+
+.button {
+	position: absolute;
+	left: 15px;
+	bottom: 25px;
+	cursor: pointer;
+	background: transparent;
+	padding: 5px;
+	margin: -5px;
+	border: none;
+	opacity: 0;
+	z-index: 999;
+	transition: opacity .3s ease;
+}
+
+.button:focus {
+	background: transparent;
+}
+
+.thumb {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 998;
+	background: #c2185b;
+}
+
+.video {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 500px) {
+	.video-container {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 410px) {
+	.video-container {
+		margin: 0 auto 15px auto;
+	}
+}
